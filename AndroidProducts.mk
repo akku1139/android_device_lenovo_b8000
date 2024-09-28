@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_B8000.mk
+    $(LOCAL_DIR)/omni_b8000.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_B8000-user \
-    omni_B8000-userdebug \
-    omni_B8000-eng
+    omni_b8000-user \
+    omni_b8000-userdebug \
+    omni_b8000-eng

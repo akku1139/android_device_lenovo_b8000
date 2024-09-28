@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=B8000
+DEVICE=b8000
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

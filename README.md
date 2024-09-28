@@ -1,4 +1,4 @@
-# Android device tree for Lenovo Lenovo B8000-F (B8000)
+# Android device tree for Lenovo Lenovo B8000-F (b8000)
 
 ```
 #

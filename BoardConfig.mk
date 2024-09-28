@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/B8000
+DEVICE_PATH := device/lenovo/b8000
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -38,8 +38,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_CONFIG := B8000_defconfig
-TARGET_KERNEL_SOURCE := kernel/lenovo/B8000
+TARGET_KERNEL_CONFIG := b8000_defconfig
+TARGET_KERNEL_SOURCE := kernel/lenovo/b8000
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -58,7 +58,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Platform
-TARGET_BOARD_PLATFORM := 
+TARGET_BOARD_PLATFORM :=
 
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true

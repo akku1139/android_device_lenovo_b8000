@@ -30,3 +30,5 @@ Display | 10.1" 1280 x 800, IPS
 Rear Camera | 5MP
 Front Camera | 1.6MP
 Release Date | 2013, October
+Shipped Android Version | Android 4.2 (Jelly Bean)
+Last Upgrade | Android 4.4 (KitKat)

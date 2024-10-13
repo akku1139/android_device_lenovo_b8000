@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Inherit from b8000 device
 $(call inherit-product, device/lenovo/b8000/device.mk)
 
 PRODUCT_DEVICE := b8000
-PRODUCT_NAME := omni_b8000
+PRODUCT_NAME := lineage_b8000
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo B8000-F
 PRODUCT_MANUFACTURER := lenovo
